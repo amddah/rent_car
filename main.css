@@ -36,7 +36,7 @@
 .header1{
     height: 500px;
     width: 100%;
-    background:no-repeat url("rep/mer1.jpg");
+    background:no-repeat url("monrep/mer1.jpg");
     background-size: 100%;
     background-attachment: fixed;
 }
@@ -270,7 +270,7 @@
     .header1{
         height: 800px;
         width: 100%;
-       background-image: url("rep/mer4.jpg");
+       background-image: url("monrep/mer4.jpg");
         background-size:100%;
         background-attachment: fixed;
     }
