@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <script type="text/javascript">
+         var date1 = new Date("12-12-2020");
+         var date2 = new Date("14-12-2021");
+         var jr=date2.getDate();
+         alert("jour est "+jr);
+          // différence des heures
+         var time_diff = date2.getTime() - date1.getTime();
+          // différence de jours
+         var days_Diff =parseInt( time_diff / (1000 * 3600 * 24));
+         // afficher la différence
+         alert(days_Diff);
+      </script>
+   </body>
+</html>
