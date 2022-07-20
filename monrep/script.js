@@ -37,11 +37,11 @@ function display(){
     document.querySelector("#liste-item-"+i).style.display="flex";
 
 }
-const pages=document.querySelectorAll(".liste-item");
+/*const pages=document.querySelectorAll(".liste-item");
 const header = document.querySelector("header")
  
 //*********fonction */
-let pageActive = 1
+/*let pageActive = 1
 var i=0
 window.onload = () => {
     // On affiche la 1ère page du formulaire
@@ -65,7 +65,7 @@ window.onload = () => {
 /**
  * Cette fonction fait avancer le formulaire d'une page
  */
-function pageSuivante(){
+/*function pageSuivante(){
     // On masque toutes les pages
     for(let page of pages){
         page.style.display = "none"
@@ -83,4 +83,4 @@ function pagePrecedente(){
       i--;
     document.querySelector("#liste-item-"+i).style.display="flex"
     
-}
+}*/
