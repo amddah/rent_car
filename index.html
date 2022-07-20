@@ -14,6 +14,56 @@
     
 </head>
 <body>
+    <script>
+    const pages=document.querySelectorAll(".liste-item");
+const header = document.querySelector("header")
+ 
+//*********fonction */
+let pageActive = 1
+var i=0
+window.onload = () => {
+    // On affiche la 1ère page du formulaire
+    document.querySelector(".liste-item").style.display = "flex"
+    // On gère les boutons "suivant"
+    let boutons = document.querySelectorAll(".next")
+
+    for(let bouton of boutons){
+        bouton.addEventListener("click", pageSuivante)   
+    }
+
+    // On gère les boutons "suivant"
+    boutons = document.querySelectorAll(".prec")
+
+    for(let bouton of boutons){
+        bouton.addEventListener("click", pagePrecedente)
+        
+    }
+}
+
+/**
+ * Cette fonction fait avancer le formulaire d'une page
+ */
+function pageSuivante(){
+    // On masque toutes les pages
+    for(let page of pages){
+        page.style.display = "none"
+    }
+     i++;//incremente le numero de la page
+    // On affiche la page suivante
+    document.querySelector("#liste-item-"+i).style.display="flex"
+}
+function pagePrecedente(){
+    // On masque toutes les pages
+    for(let page of pages){
+        page.style.display = "none"
+    }
+      // On affiche la page suivante
+      i--;
+    document.querySelector("#liste-item-"+i).style.display="flex"
+    
+}
+
+  </script>
     <nav class="navbar navbar-expand-lg navbar-light bg-danger">
        
         <div class="container-fluid fw-bold ms-5 " >
