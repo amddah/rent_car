@@ -67,6 +67,6 @@ text-align: center;
 @media (max-width :1024px){
     .liste-item{
         display: none;
-        overflow: hidden; 
+        overflow: scroll; 
     }
 }
