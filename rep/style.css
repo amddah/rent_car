@@ -1,0 +1,178 @@
+.data-grp{
+    width: 400px;
+    border: 0px solid;
+    background-color: #0B9906;
+    padding: 10px;
+    text-align: center;
+}
+.data-reservation{
+    display: flex;
+    justify-content: center;
+   
+}
+#temps{
+    font-size: 1em;
+    font-weight: 600;
+}
+.reservation{
+  
+   
+    margin-left: 15px;
+    margin-top: 20px;
+   
+}
+.header-contat{
+    background-image: url("./agen.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.data-reser-item{
+    display: block;
+    border: 1px solid grey;
+    padding: 12px;
+   font-size: 1em;
+   font-weight: 600;
+}
+.date-charge{
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.element-form input:focus{
+    transform: scale(1,1);
+}
+
+@media (max-width: 1024px){
+    .data-reservation{
+        display: block;
+    }
+    .element-contact{
+        display: block;
+        justify-content: center;
+       
+    }
+    .data-contact{
+        margin-left: 20px;
+       
+    }
+}
+.element-contact{
+    display: flex;
+    justify-content: center;
+    
+}
+.data-contact{
+    margin-left: 80px;
+   
+}
+.element-form{
+    margin-top: 20px;
+
+}
+.element-form input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+   
+}
+.element-form input:focus{
+    transform: scale(1,1);
+}
+.element-form textarea{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+.element-form button{
+    padding: 5px;
+    border-radius: 5px;
+    width: 50%;
+    background-color: #DC3545;
+    color: aliceblue;
+    font-size: 1em;
+    font-weight: 500;
+}
+.cadre-contact{
+    border: 0px solid;
+    box-shadow: 3px 5px rgb(211, 211, 211), -1em 0 .6em rgb(241, 241, 236);
+   margin-left: 50px;
+   margin-right: 50px;
+    margin-top: 80px;
+   padding: 20px;
+   border-radius: 2px;
+}
+.adresse-info span{
+    color: #0B9906;
+    font-weight: 600;
+}
+.ad{
+    margin-top: 15px;
+}
+.avant{
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+}
+#formerr{
+    color: red;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.mapouter{
+    position:relative;
+    margin-top: 15px;
+    margin-bottom: 0;
+    height:500px;
+    width:100%;
+}
+.gmap_canvas {
+    background:none!important;
+    margin-bottom: 0;
+    width:100%;
+}
+.gmap_canvas iframe{
+    width:100%; 
+    height:500px;
+    margin-bottom: 0;
+}
+@media (max-width: 1024px){
+    .data-reservation{
+        display: block;
+    }
+    .element-contact{
+        display: block;
+        justify-content: center;
+    
+    }
+    .data-contact{
+        margin-left: 20px;
+       
+    }
+    .header-contat{
+        background-image: url("./agen.jpg");
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    .gmap_canvas {
+        background:none!important;
+        height:250px;
+        width:100%;
+    }
+    .avant{
+        display: flex;
+         justify-content: center;
+         margin-bottom: 0px;
+    }
+    .mapouter{
+
+        margin-top: 15px;
+       margin-bottom: 0;
+        text-align: center;
+        height:500px;
+        width:100%;
+    }
+}
